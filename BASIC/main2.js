@@ -41,7 +41,15 @@ calcResult = +userInnput + 10;
 const tenNumber = 10;
 calcResult = '10' + String(tenNumber);
 calcResult = '10' + tenNumber.toString();
-console.log(calcResult);
 
 let boolean = true;
 boolean = false;
+
+let array = ['apple', 'banana', 'grape'];
+array = [1, 2, 3];
+array = [1, 'apple', true, array];
+array = ['apple', 'banana', 'grape'];
+
+array = [];
+array.push('apple');
+console.log(array);
