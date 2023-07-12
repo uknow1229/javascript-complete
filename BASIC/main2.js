@@ -8,3 +8,5 @@ let tomato$Count;
 let _tomato_Count;
 let tomatoCount7;
 let トマトカウント;
+
+let additionResult = 2 + 5;
