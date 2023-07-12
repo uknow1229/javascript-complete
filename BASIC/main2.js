@@ -71,6 +71,6 @@ function add() {
 }
 
 function add(num1, num2) {
-  console.log(num1 + num2);
+  return num1 + num2;
 }
-add(2, 3);
+const returndValue = add(2, 3);
