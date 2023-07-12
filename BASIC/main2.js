@@ -13,5 +13,14 @@ let additionResult = 2 + 5;
 let result = 5;
 result = result + 1;
 result += 1;
-console.log(++result);
 ++result;
+
+// ナンバー型
+let number = 10;
+numer = -4;
+number = 32.42;
+number = 'something';
+
+// ストリング型
+let string = 'Hello';
+const userName = 'Yoshipi';
