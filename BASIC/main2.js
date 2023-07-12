@@ -69,4 +69,8 @@ let userInfo = null;
 function add() {
   console.log(1 + 1);
 }
-add();
+
+function add(num1, num2) {
+  console.log(num1 + num2);
+}
+add(2, 3);
