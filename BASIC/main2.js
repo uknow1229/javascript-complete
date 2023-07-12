@@ -25,9 +25,20 @@ number = 'something';
 let string = 'Hello';
 const userName = 'Yoshipi';
 string = 'Hello' + userName + '!';
-string = `Hello' ${userName}!`;
+string = `Hello ${userName}!`;
 string = '" `` "';
 string = ` \` \\ `;
 string = 'Hello\nYoshipi!';
 string = `Hello
 Yoshipi`;
+
+const userInnput = '10';
+let calcResult;
+calcResult = Number(userInnput) + 10;
+calcResult = parseInt(userInnput) + 10;
+calcResult = parseFloat(userInnput) + 10;
+calcResult = +userInnput + 10;
+const tenNumber = 10;
+calcResult = '10' + String(tenNumber);
+calcResult = '10' + tenNumber.toString();
+console.log(calcResult);
