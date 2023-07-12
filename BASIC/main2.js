@@ -42,3 +42,6 @@ const tenNumber = 10;
 calcResult = '10' + String(tenNumber);
 calcResult = '10' + tenNumber.toString();
 console.log(calcResult);
+
+let boolean = true;
+boolean = false;
