@@ -1,5 +1,4 @@
-let count;
-console.log(count);
+let count = 0;
 count = 30;
-console.log(count);
 let newCount = 0;
+const daysInWeek = 7;
