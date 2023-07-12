@@ -66,9 +66,9 @@ const coffee = {
 coffee.isHot = false;
 let userInfo = null;
 
-const returndValue = add(2, 3);
-console.log(returndValue);
-
+const newValue = 'hello';
 function add(num1, num2) {
-  return;
+  const value = num1 + num2;
+  return value;
 }
+const returndValue = add(2, 3);
