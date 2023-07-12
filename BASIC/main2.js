@@ -10,3 +10,8 @@ let tomatoCount7;
 let トマトカウント;
 
 let additionResult = 2 + 5;
+let result = 5;
+result = result + 1;
+result += 1;
+console.log(++result);
+++result;
