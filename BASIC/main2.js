@@ -24,3 +24,10 @@ number = 'something';
 // ストリング型
 let string = 'Hello';
 const userName = 'Yoshipi';
+string = 'Hello' + userName + '!';
+string = `Hello' ${userName}!`;
+string = '" `` "';
+string = ` \` \\ `;
+string = 'Hello\nYoshipi!';
+string = `Hello
+Yoshipi`;
