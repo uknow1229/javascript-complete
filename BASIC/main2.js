@@ -64,6 +64,9 @@ const coffee = {
 };
 
 coffee.isHot = false;
-
 let userInfo = null;
-userInfo = undefined;
+
+function add() {
+  console.log(1 + 1);
+}
+add();
