@@ -118,6 +118,14 @@ do {
   tomatoCount += 1;
 } while (tomatoCount < 10);
 
-for (let pumpkinCount = 0; pumpkinCount < 10; pumpkinCount += 1) {
-  console.log(pumpkinCount);
+let a = 'a',
+  b = 'b',
+  c;
+console.log(a, b, c);
+for (
+  let pumpkinCount = 0, i = 0;
+  pumpkinCount < 10;
+  pumpkinCount += 1, i += 1
+) {
+  console.log(pumpkinCount, i);
 }
