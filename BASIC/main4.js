@@ -6,7 +6,7 @@ if (ok) {
 } else if (maybeOK) {
   console.log('maybe OK...');
 } else {
-  console.log('NO!');
+  // console.log('NO!');
 }
 
 ok = 1 === 1;
@@ -36,9 +36,15 @@ ok = 100;
 ok = 'false';
 
 if (ok) {
-  console.log('OK!');
+  // console.log('OK!');
 } else {
-  console.log('NO!');
+  // console.log('NO!');
 }
 
-console.log(ok);
+ok = true && false;
+ok = true || true;
+ok = 'hello' && 'hi';
+ok = '' || 'hi';
+const userInput = '';
+const userName = userInput || 'User';
+console.log(userName);
