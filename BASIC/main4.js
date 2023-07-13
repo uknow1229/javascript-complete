@@ -106,8 +106,14 @@ function vegetableColor(vegetable) {
 
 // vegetableColor('carrot');
 
-let count = 0;
+let count = 100;
 while (count < 10) {
-  console.log(count);
+  console.log('while: ', count);
   count += 1;
 }
+
+let tomatoCount = 100;
+do {
+  console.log('do-while: ', tomatoCount);
+  tomatoCount += 1;
+} while (tomatoCount < 10);
