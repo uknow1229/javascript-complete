@@ -26,4 +26,9 @@ const fruits1 = ['apple', 'banana'];
 const fruits2 = ['apple', 'banana'];
 ok = fruits1 === fruits2;
 
+ok = 1 > 0;
+ok = 1 < 0;
+ok = 1 >= 1;
+ok = 1 <= 1;
+
 console.log(ok);
