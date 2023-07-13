@@ -30,5 +30,15 @@ ok = 1 > 0;
 ok = 1 < 0;
 ok = 1 >= 1;
 ok = 1 <= 1;
+ok = 'a' < 'b';
+ok = 'A' <= 'a';
+ok = 100;
+ok = 'false';
+
+if (ok) {
+  console.log('OK!');
+} else {
+  console.log('NO!');
+}
 
 console.log(ok);
