@@ -71,4 +71,37 @@ const hello = 'hello2';
 ok = 'false';
 ok = ok ? 'OK' : 'NO';
 
-console.log(ok);
+function vegetableColor(vegetable) {
+  switch (vegetable) {
+    case 'tomato': {
+      const message = 'tomato is red!';
+      console.log(message);
+      break;
+    }
+    case 'pumpkin':
+    case 'carrot': {
+      const message = `${vegetable} is orange!`;
+      console.log(message);
+      break;
+    }
+    case 'onion': {
+      const message = 'onion is white!';
+      console.log(message);
+      break;
+    }
+    default: {
+      const message = 'not found';
+      console.log(message);
+    }
+  }
+}
+//   if (vegetable === 'tomato') {
+//     console.log('tomato is red!');
+//   } else if (vegetable === 'pumpkin') {
+//     console.log('pumpkin is orange!');
+//   } else if (vegetable === 'onion') {
+//     console.log('onion is white!');
+//   }
+// }
+
+vegetableColor('carrot');
