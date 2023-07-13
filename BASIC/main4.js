@@ -68,4 +68,7 @@ const hello = 'hello2';
   const hello = 'hello1';
 }
 
+ok = 'false';
+ok = ok ? 'OK' : 'NO';
+
 console.log(ok);
