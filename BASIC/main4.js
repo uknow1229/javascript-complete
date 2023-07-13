@@ -61,6 +61,11 @@ if (ok) {
 ok = !true;
 ok = !'hello';
 ok = !x;
-
 ok = !!x;
+
+const hello = 'hello2';
+{
+  const hello = 'hello1';
+}
+
 console.log(ok);
