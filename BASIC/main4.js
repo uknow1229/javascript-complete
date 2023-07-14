@@ -129,3 +129,18 @@ for (
 ) {
   console.log(pumpkinCount, i);
 }
+
+const fruits = ['apple', 'banana', 'grape', 'orange', 'mango'];
+for (let i = 0; i < 5; i += 1) {
+  console.log(fruits[i]);
+}
+
+const coffee = {
+  name: 'Caffe Latte',
+  size: 350,
+  isHot: true,
+};
+
+for (const fruit of fruits) {
+  console.log(fruits);
+}
