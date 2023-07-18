@@ -34,4 +34,13 @@ fruits = Array.of('apple', 'banana', 'grape');
 fruits = Array.of(1, 2, 3);
 fruits = Array.of(1);
 fruits = Array.of('hello');
-console.log(fruits[1], [1]);
+
+fruits = ['apple', 'banana', 'grape'];
+const newFruits = ['peach', ...fruits, 'mango'];
+fruits.push('orange');
+let sum = (...nums) => {
+  console.log(nums);
+};
+let nums = [1, 2, 3, 4];
+sum(...nums, 5, ...[6, 7, 8], 9);
+console.log(newFruits, fruits);
