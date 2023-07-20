@@ -42,5 +42,19 @@ let sum = (...nums) => {
   console.log(nums);
 };
 let nums = [1, 2, 3, 4];
-sum(...nums, 5, ...[6, 7, 8], 9);
-console.log(newFruits, fruits);
+// sum(...nums, 5, ...[6, 7, 8], 9);
+
+const yoshipi = [
+  'yoshipi',
+  20,
+  ,
+  ['music', 'travel'],
+  { first: 'yoshi', last: 'pi' },
+];
+let [, , gender = 'man', [music, travel], { first: firstName }] = yoshipi;
+console.log(gendar, music, travel, firstName);
+
+let userOvject = { hobbies: ['music', 'travel'] };
+let {
+  hobbies: [, travelObject],
+} = userOvject;
